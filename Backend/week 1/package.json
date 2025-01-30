@@ -1,0 +1,25 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "HNG Backend week 1, stage 0 task",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgianwa/HNG.git#main"
+  },
+  "author": "Georgia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgianwa/HNG/issues"
+  },
+  "homepage": "https://github.com/Georgianwa/HNG/tree/main#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
