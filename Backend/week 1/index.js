@@ -9,8 +9,8 @@ console.log(isoTimestamp);
 app.get("/", (req, res) => {
     res.send({
         email: "georgia.u.nwa@gmail.com",
-        currentDateTime: new Date().toISOString(),
-        GithubURL: "https://github.com/Georgianwa/HNG/tree/main/Backend/week%201"
+        current_date_time: new Date().toISOString(),
+        github_url: "https://github.com/Georgianwa/HNG/tree/main/Backend/week%201"
     });
 });
 
