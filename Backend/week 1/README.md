@@ -22,15 +22,17 @@ This is a public API that returns basic information in JSON format using a `GET`
 }
 ```
 ## Example usage
-> const fetch = require("node-fetch");
+``` 
+ const fetch = require("node-fetch");
 
-> fetch("https://hng-bel9.onrender.com/")
+ fetch("https://hng-bel9.onrender.com/")
 
-> .then(response => response.json())
+ .then(response => response.json())
 
-> .then(data => console.log(data))
+ .then(data => console.log(data))
 
-> .catch(error => console.log(error));
+ .catch(error => console.log(error));
+ ```
 
 
 ## One backlink related to your chosen programming language/stack:
