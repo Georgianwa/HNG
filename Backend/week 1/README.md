@@ -25,8 +25,11 @@ This is a public API that returns basic information in JSON format using a `GET`
 > const fetch = require("node-fetch");
 
 > fetch("https://hng-bel9.onrender.com/")
+
 > .then(response => response.json())
+
 > .then(data => console.log(data))
+
 > .catch(error => console.log(error));
 
 
