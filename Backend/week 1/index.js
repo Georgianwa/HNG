@@ -9,13 +9,13 @@ console.log(isoTimestamp);
 app.use(cors());
 
 app.get("/", (req, res) => {
-    const response = {
+    res.json({
         email: "georgia.u.nwa@gmail.com",
-        current_datetime: new Date().toISOString(),
-        github_url: "https://github.com/Georgianwa/HNG/tree/main/Backend/week%201"
-    };
+        current_datetime: new Date().toISOString().split(".")[0] + "Z",
+        github_url: "https://github.com/Georgianwa/HNG"
+    });
 
-    res.status(200).json(response);
+    res.status(200);
 });
 
 module.exports = app;
