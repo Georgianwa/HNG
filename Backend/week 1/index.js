@@ -2,10 +2,11 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-app.use(cors());
 
 const isoTimestamp = new Date().toISOString();
 console.log(isoTimestamp);
+
+app.use(cors());
 
 app.get("/", (req, res) => {
     const response = {
