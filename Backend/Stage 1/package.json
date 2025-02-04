@@ -1,0 +1,23 @@
+{
+  "name": "stage-1",
+  "version": "1.0.0",
+  "description": "Number classification API for HNG12",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgianwa/HNG.git#main"
+  },
+  "author": "Georgia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgianwa/HNG/issues"
+  },
+  "homepage": "https://github.com/Georgianwa/HNG/tree/main#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
