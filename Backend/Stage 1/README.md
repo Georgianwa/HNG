@@ -43,9 +43,9 @@ Handle invalid inputs with appropriate error messages.
 
 ## This project is built using the following technologies:
 
-Node.js: JavaScript runtime for building the server-side application.
-Express.js: Web framework for Node.js to handle routing.
-Render: Free deployment platform for small and hobby projects
+- Node.js: JavaScript runtime for building the server-side application.
+- Express.js: Web framework for Node.js to handle routing.
+- Render: Free deployment platform for small and hobby projects
 
 ## Contributing
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
