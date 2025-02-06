@@ -20,10 +20,11 @@ Handle invalid inputs with appropriate error messages.
 
 ## API documentation:
 - **Endpoint:** `GET /`
-- **URL:** `https://hng-stage1-wmcr.onrender.com/api/classify-number?number=120`
+- **URL:** `https://hng-stage1-wmcr.onrender.com/api/classify-number?number=371`
 - **Response format:** 
 
 ``` json
+-Required JSON Response Format (200 OK)
 {
   "number": 371,
   "is_prime": false,
@@ -33,18 +34,12 @@ Handle invalid inputs with appropriate error messages.
   "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371" //gotten from the numbers API
 }
 
--Required JSON Response Format(
-400 Bad Request)
+-Required JSON Response Format(400 Bad Request)
 {
   "number": "alphabet",
   "error": true
 }
 ```
-
-## API Endpoints
-GET loc/api/classify-number
-Classify a number as even or odd.
-
 
 ## This project is built using the following technologies:
 
