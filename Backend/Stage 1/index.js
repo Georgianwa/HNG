@@ -34,13 +34,18 @@ function is_perfect(num) {
     return num > 1 && sum === num;
 }
 
+
 function digit_sum(num) {
-    let sum = 0
-    for (let i=0; i < num.toString().length; i++) {
+    let sum = 0;
+    let num_string = Math.abs(num).toString(); // Convert absolute value to string
+
+    for (let i = 0; i < num_string.length; i++) {
         sum += parseInt(num_string[i]);
     }
+    
     return sum;
-};
+}
+
 
 // function getDigitSum(num) {
 //     return num.toString().split("").reduce((sum, digit) => sum + parseInt(digit), 0);
@@ -69,6 +74,7 @@ app.get("/api/classify-number", async (req, res) => {
             is_prime: is_prime(num),
             is_perfect: is_perfect(num),
             properties,
+            digit_sum: digit_sum(num),
             fun_fact: funFact
         });
     } catch (err) {
